@@ -14,9 +14,10 @@ public class server {
         System.out.println("Socket now accepting");
         DataInputStream dis = new DataInputStream(s.getInputStream());
         DataOutputStream dos = new DataOutputStream(s.getOutputStream());
-        System.out.println("Awaiting Messages from Client");
+
         String input, output;
         while(true){
+            System.out.println("Awaiting Messages from Client");
             input = dis.readUTF();
             System.out.println("Message Received: "+input);
             System.out.print("Write Return Message to Client: ");
