@@ -16,7 +16,8 @@ public class HotelServer extends RoomManagerImpl {
 
             System.out.println("Hotel Server Ready");
         } catch (Exception e) {
-            System.err.println(String.format("Server Exception: %s", e.toString()));
+            //When Un-identified Error Occurs
+            System.err.printf("Server Exception: %s%n", e.toString());
             e.printStackTrace();
         }
     }
