@@ -6,7 +6,7 @@ public class ResultClient {
         try {
             String input = String.join(" ", args);
             if (input.equals(""))
-                System.out.println("Enter some output!");
+                System.out.println("Enter some input!");
             else {
                 //Locate the Registry reference
                 Registry registry = LocateRegistry.getRegistry();
