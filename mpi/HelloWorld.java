@@ -5,7 +5,7 @@ public class HelloWorld {
         MPI.Init(args);
         int me = MPI.COMM_WORLD.Rank();
         int size = MPI.COMM_WORLD.Size();
-        System.out.println("Hi from <" + me + ">");
+        System.out.printf("Hi from <%02d>\n",me);
         MPI.Finalize();
     }
 }
