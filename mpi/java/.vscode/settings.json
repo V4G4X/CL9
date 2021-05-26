@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "/home/v4g4x/mpj/lib/mpi.jar"
-    ]
-}

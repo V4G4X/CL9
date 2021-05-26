@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class client {
-    public static void main(String[] args) throws IOException, EOFException {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         Socket s = new Socket("localhost", 5000);
         System.out.println("Socket opened");

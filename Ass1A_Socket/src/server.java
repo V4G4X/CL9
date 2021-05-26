@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class server {
-    public static void main(String[] args) throws IOException, EOFException {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         ServerSocket ss = new ServerSocket(5000);
         Socket s = ss.accept();
