@@ -1,0 +1,21 @@
+{
+    "movie_1": {
+        "title": "First Movie",
+        "rating": 7,
+        "director": "First Director",
+        "id": "movie_1"
+    },
+    "movie_2": {
+        "title": "Second Movie",
+        "rating": 8,
+        "director": "Second Director",
+        "id": "movie_2"
+    },
+    "movie_3": {
+        "title": "Third Movie",
+        "rating": 9,
+        "director": "Third Director",
+        "id": "movie_3"
+    }
+}
+

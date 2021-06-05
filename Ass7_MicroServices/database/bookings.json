@@ -1,0 +1,23 @@
+{
+  "user_1": {
+    "movie_1": [
+      "booking_1"
+    ]
+  },
+  "user_2": {
+    "movie_3": [
+      "booking_2"
+    ],
+    "movie_2": [
+      "booking_3"
+    ]
+  },
+  "user_3": {
+    "movie_2": [
+      "booking_4"
+    ],
+    "movie_1": [
+      "booking_5"
+    ]
+  }
+}
